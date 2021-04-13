@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(201, 15, 15);
+}
+
+.header {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedor-imagen img {
+    width: 100%;
+}
+
+.contenedor-imagen-2 img {
+    margin: 10px;
+    width: 100%;
+}
+
+.footer h6 {
+    color: whitesmoke;
+    padding: 17px;
+}
+
+.footer {
+    background-color: rgb(15, 15, 15);
+    text-align: center;
+    height: 60px;
+}
+
+@media screen and (max-width: 800px) {
+    .header {
+        flex-direction: column;
+    }
+    .footer {
+        display: none;
+    }
+}
