@@ -1,15 +1,23 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
 .header {
     background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-around;
 }
 
-body {
-    background-color: rgb(0, 0, 0);
-}
-
 .contenedor-imagen img {
     width: 100%;
+}
+
+.contenedor-info h1 {
+    color: rgb(243, 240, 235);
+}
+
+.contenedor-info p {
+    color: rgb(243, 240, 235);
 }
 
 .contenedor-imagen-2 img {
@@ -27,7 +35,7 @@ h6 {
 }
 
 .footer {
-    background-color: rgb(15, 15, 15);
+    background-color: rgb(0, 0, 0);
     text-align: center;
     height: 60px;
 }
