@@ -21,8 +21,12 @@ h6 {
     color: rgb(230, 218, 218);
 }
 
+.contenedor-info {
+    background: rgb(236, 231, 231);
+}
+
 .footer h4 {
-    color: whitesmoke;
+    color: rgba(92, 48, 48, 0.767);
     padding: 5px;
 }
 
